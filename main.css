@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:#001f36;
+    padding-top: 100px;
+}
+
+.container{
+    background-color:#3e5357 ;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #e9cca7 ;
+}
+
+.perfil{
+    background-color: #e49228;
+    padding: 4px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+.perfil img{
+    display: flex;
+    height: 100px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    
+}
+
+form input{
+    margin: 5px 5px;
+    width: 40%;
+    font-size: 16px;
+    padding: 4px;
+    background-color: #c5c0c0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+form button{
+    width: 32%;
+    font-size: 16px;
+    padding: 4px 50px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #b47017;
+    color: #e9cca7;
+}
+
+form button:hover{
+    background-color: #e49228;
+}
+
+table{
+    width: 100%;
+    padding: 10px;
+}
+
+thead{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color:#e9cca7 ;
+}
+
+tbody{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #c5c0c0;
+    background-color: #2d4347 ;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #b47017;
+    color: #e9cca7;
+}

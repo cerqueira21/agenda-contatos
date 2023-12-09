@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contatos</h1>
+        </header>
+        <div class="perfil">
+            <img src="./imagens/6073873.png" alt="profile">
+        </div>
+        <form id="agenda">
+            <input type="text" id="nome" required placeholder="Digite o Nome">
+            <input type="text" id="sobrenome" placeholder="Digite o Sobrenome">
+            <input type="tel" id="tell" required placeholder="Digite o Telefone">
+            <input type="email" id="email" placeholder="Digite o E-mail">
+        </form>
+        <form id="bnt">
+            <button type="submit">Salvar</button>
+            <button type="reset" id="apagar">Apagar</button>
+            <button type="button" id="reset">Limpar agenda</button>
+        </form>
+        <table cellspacing="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <footer class="footer">@ae.cerqueira | Todos os direitos reservados</footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
